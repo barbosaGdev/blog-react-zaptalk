@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: ["airbnb", "prettier", "prettier/react"],
+  extends: ["airbnb", "plugin:prettier/recommended"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -20,10 +20,13 @@ module.exports = {
   },
   plugins: ["react", "prettier"],
   rules: {
-    "prettier/prettier": "error",
+    "prettier/prettier": "warn",
     "react/jsx-filename-extension": ["warn", { extensions: [".jsx", ".js"] }],
     "import/prefer-default-export": "off",
     "no-param-reassign": "off",
-    "no-console": ["error", { allow: ["tron"] }]
+    "no-console": ["error", { allow: ["tron"] }],
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "dot-notation": "off"
   }
 }

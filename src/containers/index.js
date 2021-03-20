@@ -1,5 +1,7 @@
-import App from './App'
+import Login from './Login'
+import Blog from './Blog'
 
 export {
-    App
+    Login,
+    Blog
 }
