@@ -27,6 +27,7 @@ module.exports = {
     "no-console": ["error", { allow: ["tron"] }],
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off",
-    "dot-notation": "off"
+    "dot-notation": "off",
+    "react/jsx-curly-brace-presence": [{ props: "always", children: "always" }]
   }
 }

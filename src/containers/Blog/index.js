@@ -1,8 +1,13 @@
 import React from 'react'
+import Profile from '../../components/Profile'
+import Posts from '../../components/Posts'
 
 export default () => {
-
   return (
-    <>Pagina do blog</>
+    <div style={{ display: 'flex' }}>
+      <Profile />
+      <Posts />
+    </div>
+
   )
 }
