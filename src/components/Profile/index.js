@@ -1,4 +1,6 @@
 import React from 'react'
+import Box from '@material-ui/core/Box'
+import { Link } from 'react-router-dom'
 import avatar from '../../assets/avatar.png'
 
 
@@ -6,15 +8,15 @@ import avatar from '../../assets/avatar.png'
 
 export default () => {
     return (
-        <div style={{ display: 'flex', justifyContent: 'space-between', width: '20%' }}>
-            <div>
+        <Box display="flex" justifyContent="space-around" width="20%" position="fixed">
+            <Box>
                 <img src={avatar} alt="teste" width={100} />
-            </div>
+            </Box>
 
-            <div>
-                <h4>Usuário</h4>
+            <Box marginTop={2}>
+                <Link style={{ color: 'black', textDecoration: 'none' }} to="/profile" >Usuário</Link>
                 <h6>Email</h6>
-            </div>
-        </div>
+            </Box>
+        </Box>
     )
 }
