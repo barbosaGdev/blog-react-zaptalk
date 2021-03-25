@@ -17,14 +17,17 @@
     "cookie-storage": "^6.1.0",
     "formik": "^2.2.6",
     "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
     "jwt-decode": "^3.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "reflexbox": "^4.0.6",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
